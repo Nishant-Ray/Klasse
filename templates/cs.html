@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- CSS stylesheets -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/static.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/courses.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/cs.css') }}">
+		<!-- JavaScripts -->
+		<script type="text/javascript" src="{{ url_for('static', filename='js/primary.js') }}"></script>
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+		<!-- Icons -->
+		<script src="https://kit.fontawesome.com/deef0bf4ed.js" crossorigin="anonymous"></script>
+		<title>Klasse</title>
+    </head>
+
+    <body style="font-family: 'Lato', sans-serif">
+		<div id="navbar">
+			<a class="klasse-title" href="/">K L A S S E</a>
+			<a class="navlink" href="/">Dashboard</a>
+			<a class="navlink active" href="/courses">Courses</a>
+			<a class="navlink" href="/help">Help</a>
+			<img class="profile" src="/default_profile.png" alt="profile" onmouseover="dropdownHover(this, true)" onmouseout="dropdownHover(this, false)" onclick="window.open('/profile', '_self')">
+        </div>
+
+		<div style="padding-left: 30px; padding-top: 30px;">
+			<h1 class="title">Course Topics: </h1>
+			<br>
+
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Course Overview</h1>
+			</div>
+			<div class="section current">
+				<h1 style="font-weight: 700; font-size: 36px;">How do computers work?</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">What is KlasseKode?</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Coding Conventions</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Variables</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Conditionals</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Loops</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Lists</h1>
+			</div>
+			<div class="section">
+				<h1 style="font-weight: 700; font-size: 36px;">Using external libraries</h1>
+			</div>
+			
+			<iframe class="video" src="https://www.youtube.com/embed/3WxNCeZLj8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<a class="next" href="/cs1a">Next Lesson</a>
+
+			<div class="transcript">
+				<h1>Transcript</h1>
+				<p> 
+					Introduction:<br>
+					A computer is a device for working with information! The information can be numbers, words, pictures, games, or sounds! Computer information is also called data! Computers can process huge amounts of data very quickly!
+					People use computers every day at work, at school, and at home! People also use computers for sending email, writing reports, shopping, banking, listening to music, and playing games! The Internet, which is a huge network of linked computers, provides information from all over the world!
+					<br><br>
+					History:<br>
+					An English inventor named Charles Babbage designed the first mechanical computer in the 1830s! The design called for more than 50,000 moving parts! The machine was designed to follow instructions that people entered using punched cards!
+					The first electronic computers were invented in the 1940s! In place of mechanical parts, they used electronic switching devices called vacuum tubes! These computers were so big that just one of them filled a whole room! They cost millions of dollars!
+					The first computers with microprocessors (tiny transistors, electronic switching devices, on a small chip) appeared in the early 1970s and made personal computers possible! As more transistors were included in microprocessors, computers became faster and less expensive!
+					<br><br>
+					Types:<br>
+					Computers come in many forms. Desktop personal computers, or PCs, are used for tasks at the office, at school, and at home. Laptops, notebooks, and tablet computers do the same things as PCs, but they are smaller and easy to carry. Your phones and tablets are also forms of computers! Some very small computers are used to control machines like robots, cars, and airplanes.
+					<br><br>
+					Hardware and Software:<br>
+					A computer system requires both hardware and software. Hardware is the computer’s physical parts. Software is the programs, or instructions, that tell the hardware what to do.
+					All computers have the same basic hardware. The CPU (central processing unit) is the computer’s “brain.” It handles all the information that goes into and comes out of the computer. The memory is temporary storage that holds programs and data while the CPU uses it.
+					Data is kept permanently on hardware called storage devices like hard drives. The hard drive stores data on a metal disk inside the computer. Some storage devices put data on disks that can be easily moved from one computer to another. Thumb Drives make it easy to share data.
+					Input devices let the user enter data or commands into the computer. Input devices include the keyboard and the mouse. Output devices let the user see or hear the results produced by the computer. Output devices include the monitor (or screen), printer, and speakers.
+					Communication devices connect computers to each other. They let people send data from one computer to another and connect to the Internet.
+					The interface that you see when you start a computer is its operating system (OS). 
+
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

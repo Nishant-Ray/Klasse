@@ -1,0 +1,155 @@
+::selection {
+    background: rgba(240, 192, 50, 0.45);
+    text-shadow: 0px 0px 2px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(255, 255, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(241, 194, 50);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(223, 179, 47);
+}
+
+.klasse-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(241, 194, 50);
+    padding: 5px 20px;
+    border-radius: 7.5px;
+    margin: auto;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.klasse-title:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(233, 188, 52);
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    color: white;
+    background-color: rgb(166, 157, 240);
+    padding: 20px 0px 30px 20px;
+}
+
+.navlink {
+    background-color: rgb(180, 167, 214);
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+    transition: all 0.3s;
+}
+
+.navlink:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(169, 155, 202);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+    background-color: rgb(213, 166, 189);
+}
+
+.active:hover {
+    background-color: rgb(204, 149, 176);
+}
+
+.profile {
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    transition: all 0.3s;
+    float: right;
+}
+
+.dropdown-menu {
+    display: block;
+    margin-top: -30px;
+    margin-left: -50px;
+    visibility: hidden;
+    position: relative;
+    float: right;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+label {
+    font-size: 26px;
+}
+
+.form-control {
+    font-size: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.submit-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.submit-link {
+    font-size: 28px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(125, 87, 255);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.submit-link:hover {
+    background-color: rgb(118, 81, 240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+
+.subtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+}
