@@ -15,9 +15,7 @@ admin = {
     "level": "Beginner",
     "xp": 45,
     "achievements": [
-        "Completed Biology 1 Course",
-        "Completed CS 1 Course",
-        "Completed Literature 1 Course"
+        "Completed First Lesson"
     ]
 }
 users.append(admin)
